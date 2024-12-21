@@ -1,0 +1,45 @@
+body{
+	font-family: Calibri,Verdana, Geneva, sans-serif;
+	font-size: 11pt;
+	background:#41566E;
+	color:#EEC;
+}
+/*body {
+	font-family: Calibri,Verdana, Geneva, sans-serif;
+	font-size: 11pt;
+	background: #FFF;
+	color:: #41566E;
+	;
+}*/
+
+#settings-menu {
+	width: 400px;
+	padding: 15px;
+	background-color: #000000;
+	border-right: 1px solid #ddd;
+	position: fixed;
+	height: 100%;
+	top: 0;
+	left: 0;
+	box-sizing: border-box;
+}
+
+#display {
+	margin-left: 460px;
+	padding: 15px;
+}
+
+canvas{
+	border: 1px solid #ddd;
+}
+
+.parameter {
+    margin-bottom: 10px; 
+    display: flex;
+    flex-direction: column;
+	height: 50px;
+}
+
+.parameter label {
+    margin-bottom: 5px; 
+}

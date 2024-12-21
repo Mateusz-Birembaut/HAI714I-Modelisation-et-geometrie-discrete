@@ -1,0 +1,26 @@
+Fait :
+
+- Mouvement : - Points par points
+              - "Rigide"
+              - "Snake-like"
+              - "Rotation"
+
+- Animation : 
+
+    Comment ?
+        - Images clées stocké dans un tableau, a chaque fois qu'on appuie sur save: 
+            - on enregistre la position de tous les nodes du squelette, 
+              on enregistre aussi son "mirroir" en inversant les positions des bras et des jambes dans un autre tableau "mirroredKeyImages"
+    
+        - Interpolation linéaire de chaque node pour animer
+
+- Possibilité de voir les images clé 
+
+Pas fait :
+
+Méthodes pour modifier l'animation. (autre chose que interpolation linéaire)
+
+
+Difficulté : 
+
+    Méthode de mouvement avec la rotation
